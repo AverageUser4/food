@@ -1,0 +1,61 @@
+@use 'var';
+
+body {
+  background-color: #333;
+  height: 10000px;
+
+
+  margin: 0;
+  font-family: Gotham, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+ul, ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.generic-heading {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.generic-button {
+  border: none;
+  background-color: var.$nice-blue;
+  &:hover {
+    background-color: var.$nice-purple;
+    color: rgb(255, 255, 255);
+  }
+}
+
+.generic-link {
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.purple-link {
+  color: var.$nice-purple;
+}
+
+.purple-hover-link {
+  &:hover {
+    color: var.$nice-purple;
+  }
+}
+
+.blue-link {
+  color: var.$nice-blue;
+}
