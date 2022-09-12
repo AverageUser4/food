@@ -3,3 +3,8 @@ $nice-purple: rgb(137, 32, 116);
 $dark-white: rgb(240, 240, 240);
 
 $max-width: 1000px;
+$horizontal-padding: 16px;
+
+@media(min-width: 932px) {
+  $horizontal-padding: 0;
+}

@@ -1,0 +1,63 @@
+@use '../general/var';
+
+.the-main-first-section {
+  display: grid;
+  row-gap: 8px;
+  background-color: var.$dark-white;
+}
+
+.first-section__link {
+  display: block;
+  height: 200px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+// .carousel {
+//   height: 560px;
+//   background-color: rgb(255, 255, 255);
+
+// }
+
+// .carousel-content {
+//   display: grid;
+//   grid-template-columns: 620px auto;
+//   align-content: end;
+//   align-items: end;
+
+//   height: 100%;
+//   max-width: var.$max-width;
+//   box-sizing: border-box;
+//   margin: auto;
+//   padding: 0 var.$horizontal-padding 60px;
+// }
+
+// .carousel__links-container {
+//   display: grid;
+//   align-items: end;
+//   grid-template-columns: 2fr minmax(220px, 1fr);
+//   justify-content: space-between;
+//   column-gap: 16px;
+
+//   width: 620px;
+// }
+
+// .carousel__link {
+//   font-size: 44px;
+//   text-shadow: rgba(0, 0, 0, 0.48) 0px 2px 12px;
+//   color: white;
+//   font-weight: bold;
+
+//   &:hover {
+//     text-decoration: underline;
+//   }
+// }
+
+// .carousel__button {
+//   padding: 8px 16px;
+//   font-size: 13px;
+//   text-align: center;
+//   text-transform: uppercase;
+// }

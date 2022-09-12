@@ -1,5 +1,29 @@
 @use 'var';
 
+@font-face {
+  font-family: Foodicons;
+  src: url('../resources/fonts/Foodicons.woff') format('woff');
+}
+
+@font-face {
+  font-family: Gotham;
+  font-weight: 400;
+  src: url('../resources/fonts/Gotham-Book.otf') format('opentype');
+}
+
+@font-face {
+  font-family: Gotham;
+  font-weight: 500;
+  src: url('../resources/fonts/Gotham-Medium.otf') format('opentype');
+}
+
+@font-face {
+  font-family: Gotham;
+  font-weight: 700;
+  src: url('../resources/fonts/Gotham-Bold.otf') format('opentype');
+}
+
+
 body {
   background-color: #333;
   height: 10000px;
@@ -32,17 +56,12 @@ ul, ol {
 }
 
 .generic-button {
-  border: none;
+  color: rgb(0, 0, 0);
   background-color: var.$nice-blue;
+  font-weight: bold;
   &:hover {
     background-color: var.$nice-purple;
     color: rgb(255, 255, 255);
-  }
-}
-
-.generic-link {
-  &:hover {
-    text-decoration: underline;
   }
 }
 

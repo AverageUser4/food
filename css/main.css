@@ -1,3 +1,22 @@
+@font-face {
+  font-family: Foodicons;
+  src: url("../resources/fonts/Foodicons.woff") format("woff");
+}
+@font-face {
+  font-family: Gotham;
+  font-weight: 400;
+  src: url("../resources/fonts/Gotham-Book.otf") format("opentype");
+}
+@font-face {
+  font-family: Gotham;
+  font-weight: 500;
+  src: url("../resources/fonts/Gotham-Medium.otf") format("opentype");
+}
+@font-face {
+  font-family: Gotham;
+  font-weight: 700;
+  src: url("../resources/fonts/Gotham-Bold.otf") format("opentype");
+}
 body {
   background-color: #333;
   height: 10000px;
@@ -28,16 +47,13 @@ ul, ol {
 }
 
 .generic-button {
-  border: none;
+  color: rgb(0, 0, 0);
   background-color: rgb(119, 226, 225);
+  font-weight: bold;
 }
 .generic-button:hover {
   background-color: rgb(137, 32, 116);
   color: rgb(255, 255, 255);
-}
-
-.generic-link:hover {
-  text-decoration: underline;
 }
 
 .purple-link {
@@ -158,6 +174,20 @@ ul, ol {
   .the-header__empty-column {
     display: none;
   }
+}
+.the-main-first-section {
+  display: grid;
+  row-gap: 8px;
+  background-color: rgb(240, 240, 240);
+}
+
+.first-section__link {
+  display: block;
+  height: 200px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 /*# sourceMappingURL=main.css.map */
