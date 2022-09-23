@@ -116,7 +116,16 @@ function populateHeaderList() {
 
       <article class="first-section-whats-fresh">
 
-        <h3 class="whats-fresh__heading" >What's fresh?</h3>
+        <div class="whats-fresh__heading-container">
+
+          <svg class="whats-fresh__heading-sparkle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 59.9663"><defs><style>.cls-1{fill:#f4ce34}</style></defs><title></title><path id="left" class="cls-1 left" d="M21.224 3.201c-.355 2.874-.613 5.763-1.09 8.617-.567 3.396-1.326 6.76-1.986 10.142a5.768 5.768 0 0 1-3.837 4.647 60.835 60.835 0 0 1-8.265 1.974c-1.967.356-3.993.374-5.998.656a38.476 38.476 0 0 1 11.884 3.395c3.576 1.74 6.028 4.261 6.632 8.365.722 4.877 1.594 9.73 2.402 14.592a1.308 1.308 0 0 0 .576.96c.213-1.546.375-3.1.651-4.633.697-3.857 1.497-7.696 2.159-11.558a10.216 10.216 0 0 1 5.865-7.568 29.88 29.88 0 0 1 11.473-3.301 1.6 1.6 0 0 0 .994-.356c-2.121-.17-4.26-.232-6.363-.538a45.841 45.841 0 0 1-6.951-1.43 6.842 6.842 0 0 1-4.793-5.326A102.722 102.722 0 0 1 21.8 4.647c-.03-.503-.148-1.001-.226-1.5-.117.018-.235.035-.35.054"></path><path id="right-bottom" class="cls-1 right-bottom" d="M40.808 34.928c-.459 2.577-.976 5.148-1.358 7.737-.341 2.32-1.836 3.355-3.935 3.767-1.329.26-2.68.401-4.472.662 1.374.33 2.355.519 3.308.807 2.88.871 4.895 2.516 5.301 5.715a28.988 28.988 0 0 0 1.485 6.28c.124-.885.24-1.772.375-2.654.08-.535.201-1.062.288-1.595.988-5.947 2.584-7.517 8.596-8.58-1.267-.191-2.533-.379-3.801-.574-2.54-.387-3.595-1.263-4.128-3.756-.465-2.172-.75-4.382-1.117-6.573-.073-.434-.164-.866-.246-1.296l-.295.06"></path><path id="right-top" class="cls-1 right-top" d="M50.802 25.119c.32-1.74.736-3.47.941-5.221.627-5.349 3.462-6.568 7.578-7.278a4.067 4.067 0 0 0 .679-.285c-1.268-.195-2.337-.353-3.402-.53-3.069-.514-3.947-1.285-4.561-4.306-.495-2.43-.844-4.89-1.501-7.408-.106.45-.232.898-.312 1.356-.408 2.32-.82 4.641-1.202 6.964a3.455 3.455 0 0 1-2.726 2.949c-1.568.408-3.178.664-4.922 1.018 1.222.365 2.354.644 3.44 1.041 2.39.877 4.074 2.387 4.46 5.038.273 1.865.615 3.723.934 5.58.063.363.168.716.252 1.076z"></path></svg>
+
+          <h3 class="whats-fresh__heading">What's fresh?</h3>
+
+          <svg class="whats-fresh__heading-sparkle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 59.9663"><defs><style>.cls-1{fill:#f4ce34}</style></defs><title></title><path id="left" class="cls-1 left" d="M21.224 3.201c-.355 2.874-.613 5.763-1.09 8.617-.567 3.396-1.326 6.76-1.986 10.142a5.768 5.768 0 0 1-3.837 4.647 60.835 60.835 0 0 1-8.265 1.974c-1.967.356-3.993.374-5.998.656a38.476 38.476 0 0 1 11.884 3.395c3.576 1.74 6.028 4.261 6.632 8.365.722 4.877 1.594 9.73 2.402 14.592a1.308 1.308 0 0 0 .576.96c.213-1.546.375-3.1.651-4.633.697-3.857 1.497-7.696 2.159-11.558a10.216 10.216 0 0 1 5.865-7.568 29.88 29.88 0 0 1 11.473-3.301 1.6 1.6 0 0 0 .994-.356c-2.121-.17-4.26-.232-6.363-.538a45.841 45.841 0 0 1-6.951-1.43 6.842 6.842 0 0 1-4.793-5.326A102.722 102.722 0 0 1 21.8 4.647c-.03-.503-.148-1.001-.226-1.5-.117.018-.235.035-.35.054"></path><path id="right-bottom" class="cls-1 right-bottom" d="M40.808 34.928c-.459 2.577-.976 5.148-1.358 7.737-.341 2.32-1.836 3.355-3.935 3.767-1.329.26-2.68.401-4.472.662 1.374.33 2.355.519 3.308.807 2.88.871 4.895 2.516 5.301 5.715a28.988 28.988 0 0 0 1.485 6.28c.124-.885.24-1.772.375-2.654.08-.535.201-1.062.288-1.595.988-5.947 2.584-7.517 8.596-8.58-1.267-.191-2.533-.379-3.801-.574-2.54-.387-3.595-1.263-4.128-3.756-.465-2.172-.75-4.382-1.117-6.573-.073-.434-.164-.866-.246-1.296l-.295.06"></path><path id="right-top" class="cls-1 right-top" d="M50.802 25.119c.32-1.74.736-3.47.941-5.221.627-5.349 3.462-6.568 7.578-7.278a4.067 4.067 0 0 0 .679-.285c-1.268-.195-2.337-.353-3.402-.53-3.069-.514-3.947-1.285-4.561-4.306-.495-2.43-.844-4.89-1.501-7.408-.106.45-.232.898-.312 1.356-.408 2.32-.82 4.641-1.202 6.964a3.455 3.455 0 0 1-2.726 2.949c-1.568.408-3.178.664-4.922 1.018 1.222.365 2.354.644 3.44 1.041 2.39.877 4.074 2.387 4.46 5.038.273 1.865.615 3.723.934 5.58.063.363.168.716.252 1.076z"></path></svg>
+
+        </div>
+
 
         <div class="whats-fresh__content">
 
@@ -128,6 +137,147 @@ function populateHeaderList() {
 
             </div>
 
+            <div class="whats-fresh__post-content-container">
+
+              <h4 class="whats-fresh__post-heading">
+                <a class="whats-fresh__generic-link" href="javascript:void(0)">Karen M.</a> 
+                reviewed <a class="whats-fresh__generic-link" href="javascript:void(0)">Savory Ham and Mushroom Quiche.</a>
+              </h4>
+
+              <span class="whats-fresh__post-time">7 hours ago</span>
+
+              <div class="whats-fresh__post-rating">
+                <span class="rating-full-start"></span>
+                <span class="rating-full-start"></span>
+                <span class="rating-full-start"></span>
+                <span class="rating-full-start"></span>
+                <span class="rating-full-start"></span>
+              </div>
+
+              <p class="whats-fresh__post-paragraph">
+                Extremely easy to prepare, but absolutely delicious!!
+              </p>
+            
+            </div>
+
+          </article>
+
+          <article class="whats-fresh__post">
+
+            <div class="whats-fresh__post-icon-container">
+
+              <img class="whats-fresh__post-icon-image" src="resources/images/icons/person-purple.svg">
+
+            </div>
+
+            <div class="whats-fresh__post-content-container">
+
+              <h4 class="whats-fresh__post-heading">
+                <a class="whats-fresh__generic-link" href="javascript:void(0)">Karen J.</a> followed 
+                <a class="whats-fresh__generic-link" href="javascript:void(0)">na 2309</a>.
+              </h4>
+
+              <span class="whats-fresh__post-time">10 hours ago</span>
+
+            </div>
+
+          </article>
+
+          <article class="whats-fresh__post">
+
+            <div class="whats-fresh__post-icon-container">
+
+              <img class="whats-fresh__post-icon-image" src="resources/images/icons/person-purple.svg">
+
+            </div>
+
+            <div class="whats-fresh__post-content-container">
+
+              <h4 class="whats-fresh__post-heading">
+                <a class="whats-fresh__generic-link" href="javascript:void(0)">lazyme</a>
+                 added a photo to 
+                 <a class="whats-fresh__generic-link" href="javascript:void(0)">Pasta with Mushroom Garlic Sauce</a>.
+              </h4>
+
+              <span class="whats-fresh__post-time">13 hours ago</span>
+
+              <img class="whats-fresh__post-image" src="resources/images/misc/whats-fresh.jpg">
+
+          </article>
+
+          <article class="whats-fresh__post">
+
+            <div class="whats-fresh__post-icon-container">
+
+              <img class="whats-fresh__post-icon-image" src="resources/images/icons/person-purple.svg">
+
+            </div>
+
+            <div class="whats-fresh__post-content-container">
+
+              <h4 class="whats-fresh__post-heading">
+                <a class="whats-fresh__generic-link" href="javascript:void(0)">Kim T.</a>
+                asked a question about
+                <a class="whats-fresh__generic-link" href="javascript:void(0)">Green (Un-Ripe) Tomato Salsa for Canning</a>.
+              </h4>
+
+              <span class="whats-fresh__post-time">15 hours ago</span>
+
+              <p class="whats-fresh__post-paragraph">
+                Can I use red tomatoes instead?
+              </p>
+
+            </div>
+
+          </article>
+
+          <article class="whats-fresh__post">
+
+            <div class="whats-fresh__post-icon-container">
+
+              <img class="whats-fresh__post-icon-image" src="resources/images/icons/person-purple.svg">
+
+            </div>
+
+            <div class="whats-fresh__post-content-container">
+
+              <h4 class="whats-fresh__post-heading">
+                <a class="whats-fresh__generic-link" href="javascript:void(0)">Deb N.</a>
+                tweaked <a class="whats-fresh__generic-link" href="javascript:void(0)">Easiest Hot Pepper Jelly</a>.
+              </h4>
+
+              <span class="whats-fresh__post-time">16 hours ago</span>
+
+              <p class="whats-fresh__post-paragraph">
+                I have orange marmalade on hand and will try your easy method.
+                Thanks, because even if I can find hot pepper jelly,
+                it really is pricy.
+              </p>
+
+            </div>
+
+          </article>
+
+          <article class="whats-fresh__post">
+
+            <div class="whats-fresh__post-icon-container">
+
+              <img class="whats-fresh__post-icon-image" src="resources/images/icons/person-purple.svg">
+
+            </div>
+
+            <div class="whats-fresh__post-content-container">
+
+              <h4 class="whats-fresh__post-heading">
+                <a class="whats-fresh__generic-link" href="javascript:void(0)">CLUBFOODY</a>
+                added a recipe for 
+                <a class="whats-fresh__generic-link" href="javascript:void(0)">Flavorful Peri Peri Chicken.</a>
+              </h4>
+
+              <span class="whats-fresh__post-time">6 days ago</span>
+
+            </div>
+
           </article>
 
         </div>
@@ -135,6 +285,30 @@ function populateHeaderList() {
         <a class="whats-fresh__view-all" href="javascript:void(0)">View all</a>
 
       </article>
+
+      <a class="bottom-link" href="javascript:void(0)">
+
+        <img class="bottom-link__image" src="resources/images/misc/bottom-article.jpg">
+        <span class="bottom-link__first-span">Tweak of the week</span>
+        <span class="bottom-link__second-span">How to take cheesecake to the next level</span>
+
+      </a>
+
+      <a class="bottom-link" href="javascript:void(0)">
+
+        <img class="bottom-link__image" src="resources/images/misc/bottom-article.jpg">
+        <span class="bottom-link__first-span">Recipe of the day</span>
+        <span class="bottom-link__second-span">Algeran Couscous</span>
+
+      </a>
+
+      <a class="bottom-link" href="javascript:void(0)">
+
+        <img class="bottom-link__image" src="resources/images/misc/bottom-article.jpg">
+        <span class="bottom-link__first-span bottom-link__first-span--special"></span>
+        <span class="bottom-link__second-span">Enter daily for a chance at $10k!</span>
+
+      </a>
 
     </section>
 
