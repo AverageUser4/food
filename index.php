@@ -49,7 +49,7 @@ function populateHeaderList() {
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Food.com</title>
   <link rel="stylesheet" href="css/main.css">
-  <script type="module" href="js/main.js"></script>
+  <script type="module" src="js/main.js"></script>
 
 </head>
 
@@ -65,7 +65,7 @@ function populateHeaderList() {
         <img class="the-header__menu-icon" src="resources/images/icons/menu.svg">
       </button>
   
-      <a class="the-header__logo-container" href="javascript:void(0)">
+      <a class="the-header__logo-container">
         <img class="the-header__logo" src="resources/images/misc/logo.svg">
       </a>
 
@@ -79,15 +79,15 @@ function populateHeaderList() {
 
       <div class="the-header__empty-column"></div>
 
-      <a class="the-header__icon-link" href="javascript:void(0)">
+      <a class="the-header__icon-link">
         <img src="resources/images/icons/search.svg">
       </a>
 
-      <a class="the-header__icon-link" href="javascript:void(0)">
+      <a class="the-header__icon-link">
         <img src="resources/images/icons/flag.svg">
       </a>
 
-      <a class="the-header__icon-link" href="javascript:void(0)">
+      <a class="the-header__icon-link">
         <img src="resources/images/icons/person.svg">
       </a>
 
@@ -99,17 +99,17 @@ function populateHeaderList() {
 
     <section class="the-main-first-section">
 
-      <a class="first-section__top-link" href="javascript:void(0)">
+      <a class="first-section__top-link">
         <img class="first-section__top-link-image" src="resources/images/carousel/for-kids.jpg">
         <span class="first-section__top-link-span">Top 100 Recipes For Kids</span>
       </a>
 
-      <a class="first-section__top-link" href="javascript:void(0)">
+      <a class="first-section__top-link">
         <img class="first-section__top-link-image" src="resources/images/carousel/pork-chops.jpg">
         <span class="first-section__top-link-span">Pork Chops, 34 Ways</span>
       </a>
 
-      <a class="first-section__top-link" href="javascript:void(0)">
+      <a class="first-section__top-link">
         <img class="first-section__top-link-image" src="resources/images/carousel/side-dishes.jpg">
         <span class="first-section__top-link-span">50 Ultimate Side Dishes</span>
       </a>
@@ -140,8 +140,8 @@ function populateHeaderList() {
             <div class="whats-fresh__post-content-container">
 
               <h4 class="whats-fresh__post-heading">
-                <a class="whats-fresh__generic-link" href="javascript:void(0)">Karen M.</a> 
-                reviewed <a class="whats-fresh__generic-link" href="javascript:void(0)">Savory Ham and Mushroom Quiche.</a>
+                <a class="whats-fresh__generic-link">Karen M.</a> 
+                reviewed <a class="whats-fresh__generic-link">Savory Ham and Mushroom Quiche.</a>
               </h4>
 
               <span class="whats-fresh__post-time">7 hours ago</span>
@@ -173,8 +173,8 @@ function populateHeaderList() {
             <div class="whats-fresh__post-content-container">
 
               <h4 class="whats-fresh__post-heading">
-                <a class="whats-fresh__generic-link" href="javascript:void(0)">Karen J.</a> followed 
-                <a class="whats-fresh__generic-link" href="javascript:void(0)">na 2309</a>.
+                <a class="whats-fresh__generic-link">Karen J.</a> followed 
+                <a class="whats-fresh__generic-link">na 2309</a>.
               </h4>
 
               <span class="whats-fresh__post-time">10 hours ago</span>
@@ -194,9 +194,9 @@ function populateHeaderList() {
             <div class="whats-fresh__post-content-container">
 
               <h4 class="whats-fresh__post-heading">
-                <a class="whats-fresh__generic-link" href="javascript:void(0)">lazyme</a>
+                <a class="whats-fresh__generic-link">lazyme</a>
                  added a photo to 
-                 <a class="whats-fresh__generic-link" href="javascript:void(0)">Pasta with Mushroom Garlic Sauce</a>.
+                 <a class="whats-fresh__generic-link">Pasta with Mushroom Garlic Sauce</a>.
               </h4>
 
               <span class="whats-fresh__post-time">13 hours ago</span>
@@ -216,9 +216,9 @@ function populateHeaderList() {
             <div class="whats-fresh__post-content-container">
 
               <h4 class="whats-fresh__post-heading">
-                <a class="whats-fresh__generic-link" href="javascript:void(0)">Kim T.</a>
+                <a class="whats-fresh__generic-link">Kim T.</a>
                 asked a question about
-                <a class="whats-fresh__generic-link" href="javascript:void(0)">Green (Un-Ripe) Tomato Salsa for Canning</a>.
+                <a class="whats-fresh__generic-link">Green (Un-Ripe) Tomato Salsa for Canning</a>.
               </h4>
 
               <span class="whats-fresh__post-time">15 hours ago</span>
@@ -242,8 +242,8 @@ function populateHeaderList() {
             <div class="whats-fresh__post-content-container">
 
               <h4 class="whats-fresh__post-heading">
-                <a class="whats-fresh__generic-link" href="javascript:void(0)">Deb N.</a>
-                tweaked <a class="whats-fresh__generic-link" href="javascript:void(0)">Easiest Hot Pepper Jelly</a>.
+                <a class="whats-fresh__generic-link">Deb N.</a>
+                tweaked <a class="whats-fresh__generic-link">Easiest Hot Pepper Jelly</a>.
               </h4>
 
               <span class="whats-fresh__post-time">16 hours ago</span>
@@ -269,9 +269,9 @@ function populateHeaderList() {
             <div class="whats-fresh__post-content-container">
 
               <h4 class="whats-fresh__post-heading">
-                <a class="whats-fresh__generic-link" href="javascript:void(0)">CLUBFOODY</a>
+                <a class="whats-fresh__generic-link">CLUBFOODY</a>
                 added a recipe for 
-                <a class="whats-fresh__generic-link" href="javascript:void(0)">Flavorful Peri Peri Chicken.</a>
+                <a class="whats-fresh__generic-link">Flavorful Peri Peri Chicken.</a>
               </h4>
 
               <span class="whats-fresh__post-time">6 days ago</span>
@@ -282,27 +282,37 @@ function populateHeaderList() {
 
         </div>
 
-        <a class="whats-fresh__view-all" href="javascript:void(0)">View all</a>
+        <a class="whats-fresh__view-all">View all</a>
 
       </article>
 
-      <a class="bottom-link" href="javascript:void(0)">
+      <a class="bottom-link">
 
         <img class="bottom-link__image" src="resources/images/misc/bottom-article.jpg">
-        <span class="bottom-link__first-span">Tweak of the week</span>
+
+        <div class="bottom-link__first-span-container">
+          <span class="bottom-link__first-span bottom-link__first-span--black">Tweak of the week</span>
+          <div class="bottom-link__first-span-traingles bottom-link__first-span-traingles--black"></div>
+        </div>
+
         <span class="bottom-link__second-span">How to take cheesecake to the next level</span>
 
       </a>
 
-      <a class="bottom-link" href="javascript:void(0)">
+      <a class="bottom-link">
 
         <img class="bottom-link__image" src="resources/images/misc/bottom-article.jpg">
-        <span class="bottom-link__first-span">Recipe of the day</span>
+
+        <div class="bottom-link__first-span-container">
+          <span class="bottom-link__first-span">Recipe of the day</span>
+          <div class="bottom-link__first-span-traingles"></div>
+        </div>
+        
         <span class="bottom-link__second-span">Algeran Couscous</span>
 
       </a>
 
-      <a class="bottom-link" href="javascript:void(0)">
+      <a class="bottom-link">
 
         <img class="bottom-link__image" src="resources/images/misc/bottom-article.jpg">
         <span class="bottom-link__first-span bottom-link__first-span--special"></span>
@@ -311,6 +321,330 @@ function populateHeaderList() {
       </a>
 
     </section>
+
+    <div class="cool-sections-container">
+
+      <section class="section-type-1">
+
+        <h3 class="section-type-1__heading">Trending Recipes</h3>
+
+        <div class="section-type-1__content-container">
+
+          <article class="section-type-1__article">
+
+            <a class="section-type-1__article-image-container">
+              <img class="section-type-1__article-image" src="resources/images/misc/small-article.jpg">
+            </a>
+
+            <a class="section-type-1__article-name-link">Bourbon Chicken</a>
+            
+            <span class="section-type-1__article-author-span">by <a class="section-type-1__article-author-link">LinMarine</a></span>
+            
+            <a class="section-type-1__article-rating-container">
+
+              <div class="section-type-1__stars-container">
+                <img class="section-type-1__star-image" src="resources/images/icons/star-full.svg">
+                <img class="section-type-1__star-image" src="resources/images/icons/star-full.svg">
+                <img class="section-type-1__star-image" src="resources/images/icons/star-full.svg">
+                <img class="section-type-1__star-image" src="resources/images/icons/star-full.svg">
+                <img class="section-type-1__star-image" src="resources/images/icons/star.svg">
+              </div>
+
+              <span class="section-type-1__article-rating-span">(3077)</span>
+
+            </a>
+
+          </article>
+
+          <article class="section-type-1__article">
+
+            <a class="section-type-1__article-image-container">
+              <img class="section-type-1__article-image" src="resources/images/misc/small-article.jpg">
+            </a>
+
+            <a class="section-type-1__article-name-link">Bourbon Chicken</a>
+
+            <span class="section-type-1__article-author-span">by <a class="section-type-1__article-author-link">LinMarie</a></span>
+
+            <a class="section-type-1__article-rating-container">
+
+              <div class="section-type-1__stars-container">
+                <img class="section-type-1__star-image" src="resources/images/icons/star-full.svg">
+                <img class="section-type-1__star-image" src="resources/images/icons/star-full.svg">
+                <img class="section-type-1__star-image" src="resources/images/icons/star-full.svg">
+                <img class="section-type-1__star-image" src="resources/images/icons/star-full.svg">
+                <img class="section-type-1__star-image" src="resources/images/icons/star.svg">
+              </div>
+
+              <span class="section-type-1__article-rating-span">(3077)</span>
+
+            </a>
+
+          </article>
+
+          <article class="section-type-1__article">
+
+            <a class="section-type-1__article-image-container">
+              <img class="section-type-1__article-image" src="resources/images/misc/small-article.jpg">
+            </a>
+
+            <a class="section-type-1__article-name-link">Bourbon Chicken</a>
+
+            <span class="section-type-1__article-author-span">by <a class="section-type-1__article-author-link">LinMarie</a></span>
+
+            <a class="section-type-1__article-rating-container">
+
+              <div class="section-type-1__stars-container">
+                <img class="section-type-1__star-image" src="resources/images/icons/star-full.svg">
+                <img class="section-type-1__star-image" src="resources/images/icons/star-full.svg">
+                <img class="section-type-1__star-image" src="resources/images/icons/star-full.svg">
+                <img class="section-type-1__star-image" src="resources/images/icons/star-full.svg">
+                <img class="section-type-1__star-image" src="resources/images/icons/star.svg">
+              </div>
+
+              <span class="section-type-1__article-rating-span">(3077)</span>
+
+            </a>
+
+          </article>
+
+          <article class="section-type-1__article">
+
+            <a class="section-type-1__article-image-container">
+              <img class="section-type-1__article-image" src="resources/images/misc/small-article.jpg">
+            </a>
+
+            <a class="section-type-1__article-name-link">Bourbon Chicken</a>
+
+            <span class="section-type-1__article-author-span">by <a class="section-type-1__article-author-link">LinMarie</a></span>
+
+            <a class="section-type-1__article-rating-container">
+
+              <div class="section-type-1__stars-container">
+                <img class="section-type-1__star-image" src="resources/images/icons/star-full.svg">
+                <img class="section-type-1__star-image" src="resources/images/icons/star-full.svg">
+                <img class="section-type-1__star-image" src="resources/images/icons/star-full.svg">
+                <img class="section-type-1__star-image" src="resources/images/icons/star-full.svg">
+                <img class="section-type-1__star-image" src="resources/images/icons/star.svg">
+              </div>
+
+              <span class="section-type-1__article-rating-span">(3077)</span>
+
+            </a>
+
+          </article>
+
+        </div>
+
+        <a class="section-type-1__view-all">View All &gt;</a>
+
+      </section>
+
+      <section class="section-type-2">
+
+        <h3 class="section-type-2__heading">Top Collections</h3>
+
+        <div class="section-type-2__content-container">
+
+          <article class="section-type-2__article">
+
+            <a class="section-type-2__article-link">
+              <img class="section-type-2__article-image" src="resources/images/misc/big-article.jpg">
+              <span class="section-type-2__article-span">Photos</span>
+              <h4 class="section-type-2__article-heading">40 Quick Chicken Ideas</h4>
+            </a>
+
+          </article>
+
+          <article class="section-type-2__article">
+
+            <a class="section-type-2__article-link">
+              <img class="section-type-2__article-image" src="resources/images/misc/big-article.jpg">
+              <span class="section-type-2__article-span">Photos</span>
+              <h4 class="section-type-2__article-heading">40 Quick Chicken Ideas</h4>
+            </a>
+
+          </article>
+
+          <article class="section-type-2__article">
+
+            <a class="section-type-2__article-link">
+              <img class="section-type-2__article-image" src="resources/images/misc/big-article.jpg">
+              <span class="section-type-2__article-span">Photos</span>
+              <h4 class="section-type-2__article-heading">40 Quick Chicken Ideas</h4>
+            </a>
+
+          </article>
+          
+        </div>
+
+      </section>
+
+      <section class="section-type-1">
+
+        <h3 class="section-type-1__heading">Newest Recipes</h3>
+
+        <div class="section-type-1__content-container">
+
+          <article class="section-type-1__article">
+
+            <a class="section-type-1__article-image-container">
+              <img class="section-type-1__article-image" src="resources/images/misc/small-article-2.jpg">
+            </a>
+
+            <a class="section-type-1__article-name-link">To Die for Crock Pot Roast</a>
+            
+            <span class="section-type-1__article-author-span">by <a class="section-type-1__article-author-link">yooper</a></span>
+            
+            <a class="section-type-1__article-rating-container">
+
+              <div class="section-type-1__stars-container">
+                <img class="section-type-1__star-image" src="resources/images/icons/star-full.svg">
+                <img class="section-type-1__star-image" src="resources/images/icons/star-full.svg">
+                <img class="section-type-1__star-image" src="resources/images/icons/star-full.svg">
+                <img class="section-type-1__star-image" src="resources/images/icons/star-full.svg">
+                <img class="section-type-1__star-image" src="resources/images/icons/star-full.svg">
+              </div>
+
+              <span class="section-type-1__article-rating-span">(2013)</span>
+
+            </a>
+
+          </article>
+
+          <article class="section-type-1__article">
+
+            <a class="section-type-1__article-image-container">
+              <img class="section-type-1__article-image" src="resources/images/misc/small-article-2.jpg">
+            </a>
+
+            <a class="section-type-1__article-name-link">To Die for Crock Pot Roast</a>
+
+            <span class="section-type-1__article-author-span">by <a class="section-type-1__article-author-link">yooper</a></span>
+
+            <a class="section-type-1__article-rating-container">
+
+              <div class="section-type-1__stars-container">
+                <img class="section-type-1__star-image" src="resources/images/icons/star-full.svg">
+                <img class="section-type-1__star-image" src="resources/images/icons/star-full.svg">
+                <img class="section-type-1__star-image" src="resources/images/icons/star-full.svg">
+                <img class="section-type-1__star-image" src="resources/images/icons/star-full.svg">
+                <img class="section-type-1__star-image" src="resources/images/icons/star-full.svg">
+              </div>
+
+              <span class="section-type-1__article-rating-span">(2013)</span>
+
+            </a>
+
+          </article>
+
+          <article class="section-type-1__article">
+
+            <a class="section-type-1__article-image-container">
+              <img class="section-type-1__article-image" src="resources/images/misc/small-article-2.jpg">
+            </a>
+
+            <a class="section-type-1__article-name-link">To Die for Crock Pot Roast</a>
+
+            <span class="section-type-1__article-author-span">by <a class="section-type-1__article-author-link">yooper</a></span>
+
+            <a class="section-type-1__article-rating-container">
+
+              <div class="section-type-1__stars-container">
+                <img class="section-type-1__star-image" src="resources/images/icons/star-full.svg">
+                <img class="section-type-1__star-image" src="resources/images/icons/star-full.svg">
+                <img class="section-type-1__star-image" src="resources/images/icons/star-full.svg">
+                <img class="section-type-1__star-image" src="resources/images/icons/star-full.svg">
+                <img class="section-type-1__star-image" src="resources/images/icons/star-full.svg">
+              </div>
+
+              <span class="section-type-1__article-rating-span">(2013)</span>
+
+            </a>
+
+          </article>
+
+          <article class="section-type-1__article">
+
+            <a class="section-type-1__article-image-container">
+              <img class="section-type-1__article-image" src="resources/images/misc/small-article-2.jpg">
+            </a>
+
+            <a class="section-type-1__article-name-link">To Die for Crock Pot Roast</a>
+
+            <span class="section-type-1__article-author-span">by <a class="section-type-1__article-author-link">yooper</a></span>
+
+            <a class="section-type-1__article-rating-container">
+
+              <div class="section-type-1__stars-container">
+                <img class="section-type-1__star-image" src="resources/images/icons/star-full.svg">
+                <img class="section-type-1__star-image" src="resources/images/icons/star-full.svg">
+                <img class="section-type-1__star-image" src="resources/images/icons/star-full.svg">
+                <img class="section-type-1__star-image" src="resources/images/icons/star-full.svg">
+                <img class="section-type-1__star-image" src="resources/images/icons/star-full.svg">
+              </div>
+
+              <span class="section-type-1__article-rating-span">(2013)</span>
+
+            </a>
+
+          </article>
+
+        </div>
+
+        <a class="section-type-1__view-all">View All &gt;</a>
+
+      </section>
+
+      <section class="section-type-2 section-type-2-last">
+
+        <h3 class="section-type-2__heading">What We're Craving Now</h3>
+
+        <div class="section-type-2__content-container">
+
+          <article class="section-type-2__article">
+
+            <a class="section-type-2__article-link">
+              <img class="section-type-2__article-image" src="resources/images/misc/big-article-2.jpg">
+              <span class="section-type-2__article-span">Photos</span>
+              <h4 class="section-type-2__article-heading">Kids & Family</h4>
+            </a>
+
+          </article>
+
+          <article class="section-type-2__article">
+
+            <a class="section-type-2__article-link">
+              <img class="section-type-2__article-image" src="resources/images/misc/big-article-2.jpg">
+              <span class="section-type-2__article-span">Photos</span>
+              <h4 class="section-type-2__article-heading">Kids & Family</h4>
+            </a>
+
+          </article>
+
+          <article class="section-type-2__article">
+
+            <a class="section-type-2__article-link">
+              <img class="section-type-2__article-image" src="resources/images/misc/big-article-2.jpg">
+              <span class="section-type-2__article-span">Photos</span>
+              <h4 class="section-type-2__article-heading">Kids & Family</h4>
+            </a>
+
+          </article>
+          
+        </div>
+
+      </section>
+
+    </div>
+
+    <form class="search-form">
+
+      <span class="search-form__span">I Want To Make</span>
+      <input class="search-form__input-text" type="text">
+      <button class="search-form__button" type="button">View Suggestions</button>
+
+    </form>
 
   </main>
 

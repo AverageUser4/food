@@ -1,0 +1,58 @@
+@use '../general/var';
+
+.section-type-2 {
+  background-color: rgb(255, 255, 255);
+  padding: 0 24px;
+  margin-bottom: 48px;
+}
+
+.section-type-2-last {
+  margin: 0;
+}
+
+.section-type-2__heading {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: normal;
+  text-align: center;
+  margin: 0 0 32px;
+}
+
+.section-type-2__article {
+  position: relative;
+  margin-bottom: 16px;
+}
+
+.section-type-2__article-image {
+  display: block;
+  width: 100%;
+}
+
+.section-type-2__article-span {
+  position: absolute;
+  bottom: 56px;
+  left: 12px;
+  padding: 4px 16px;
+  font-size: 13px;
+  text-transform: uppercase;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+
+.section-type-2__article-heading {
+  position: absolute;
+  bottom: 12px;
+  left: 12px;
+  margin: 0;
+  padding: 4px 16px;
+  font-size: 16px;
+  text-transform: uppercase;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+@media (min-width: 600px) {
+  .section-type-2__article-heading {
+    font-size: 25px;
+  }
+}
