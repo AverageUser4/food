@@ -1,0 +1,40 @@
+@use '../general/var';
+
+.the-footer {
+  padding: 16px 32px;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+}
+
+.the-footer-link {
+  color: var.$nice-blue;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.the-footer__back-to-top-button {
+  font-size: 14px;
+  text-transform: uppercase;
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+
+.the-footer__ul {
+  display: grid;
+  grid-auto-flow: column;
+  column-gap: 12px;
+  justify-content: left;
+
+  margin: 12px 0;
+}
+
+.the-footer__social-icon {
+  width: 16px;
+}
+
+.the-footer__last-ul {
+  margin-bottom: 0;
+}

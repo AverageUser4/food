@@ -641,12 +641,57 @@ function populateHeaderList() {
     <form class="search-form">
 
       <span class="search-form__span">I Want To Make</span>
-      <input class="search-form__input-text" type="text">
+
+      <div class="search-form__input-container">
+        <input class="search-form__input-text" type="text" placeholder="Search here or try our suggestions below">
+      </div>
+
       <button class="search-form__button" type="button">View Suggestions</button>
 
     </form>
 
   </main>
+
+  <footer class="the-footer">
+
+    <button class="the-footer__back-to-top-button">Back to top</button>
+
+    <nav class="the-footer__nav">
+
+      <ul class="the-footer__ul the-footer__social-ul">
+
+        <li><img class="the-footer__social-icon" src="resources/images/icons/facebook.svg"></li>
+        <li><img class="the-footer__social-icon" src="resources/images/icons/facebook.svg"></li>
+        <li><img class="the-footer__social-icon" src="resources/images/icons/facebook.svg"></li>
+        <li><img class="the-footer__social-icon" src="resources/images/icons/facebook.svg"></li>
+        <li><img class="the-footer__social-icon" src="resources/images/icons/facebook.svg"></li>
+
+      </ul>
+
+      <ul class="the-footer__ul the-footer__other-ul">
+
+        <li><a class="the-footer-link">All Categories</a></li>
+        <li><a class="the-footer-link">Site Map</a></li>
+        <li><a class="the-footer-link">About Us</a></li>
+        <li><a class="the-footer-link">Help</a></li>
+
+      </ul>
+
+      <p class="the-footer__paragraph">
+        © 2022 Warner Bros. Discovery, Inc. or its subsidiaries and affiliates.
+        All rights reserved.
+      </p>
+
+      <ul class="the-footer__ul the-footer__last-ul">
+
+        <li><a class="the-footer-link">Privacy Notice</a></li>
+        <li><a class="the-footer-link">Visitor Agreement</a></li>
+
+      </ul>
+
+    </nav>
+
+  </footer>
 
 </body>
 

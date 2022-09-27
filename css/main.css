@@ -18,8 +18,6 @@
   src: url("../resources/fonts/Gotham-Bold.otf") format("opentype");
 }
 body {
-  background-color: #333;
-  height: 10000px;
   margin: 0;
   font-family: Gotham, sans-serif;
 }
@@ -96,6 +94,7 @@ ul, ol {
   position: absolute;
   top: 100%;
   left: 0;
+  z-index: 1;
   padding: 16px 24px;
   width: 350px;
   max-height: calc(100vh - 82px);
@@ -502,6 +501,86 @@ ul, ol {
 .search-form {
   padding: 32px;
   background-image: linear-gradient(140deg, rgb(228, 25, 128) 10%, rgb(103, 20, 110) 60%);
+}
+
+.search-form__span {
+  display: block;
+  width: max-content;
+  margin: auto;
+  padding: 12px;
+  font-size: 20px;
+  background-color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-decoration: 3px underline rgb(137, 32, 116);
+  text-underline-offset: 4px;
+  text-transform: uppercase;
+}
+
+.search-form__input-container {
+  margin-bottom: 12px;
+  background-color: rgb(255, 255, 255);
+  padding: 16px 12px;
+}
+
+.search-form__input-text {
+  display: block;
+  width: 100%;
+  padding-bottom: 4px;
+  font-size: 12px;
+  border: none;
+  border-bottom: 3px solid rgb(137, 32, 116);
+}
+
+.search-form__button {
+  display: block;
+  margin: auto;
+  padding: 12px 18px;
+  font-size: 13px;
+  background-color: rgb(119, 226, 225);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.search-form__button:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(137, 32, 116);
+}
+
+.the-footer {
+  padding: 16px 32px;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+}
+
+.the-footer-link {
+  color: rgb(119, 226, 225);
+}
+.the-footer-link:hover {
+  text-decoration: underline;
+}
+
+.the-footer__back-to-top-button {
+  font-size: 14px;
+  text-transform: uppercase;
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+
+.the-footer__ul {
+  display: grid;
+  grid-auto-flow: column;
+  column-gap: 12px;
+  justify-content: left;
+  margin: 12px 0;
+}
+
+.the-footer__social-icon {
+  width: 16px;
+}
+
+.the-footer__last-ul {
+  margin-bottom: 0;
 }
 
 /*# sourceMappingURL=main.css.map */
