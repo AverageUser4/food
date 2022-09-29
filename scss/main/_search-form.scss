@@ -46,3 +46,16 @@
     background-color: var.$nice-purple;
   }
 }
+
+@media(min-width: 820px) {
+  .search-form__content {
+    width: var.$width-cap-1;
+    margin: auto;
+  }
+}
+
+@media(min-width: 960px) {
+  .search-form__content {
+    width: var.$width-cap-2;
+  }
+}

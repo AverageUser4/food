@@ -1,0 +1,80 @@
+@use '../general/var';
+
+.carousel {
+  display: none;
+}
+
+@media(min-width: 820px) {
+  .carousel {
+    display: block;
+    height: 560px;
+    background: rgb(255, 255, 255) url('../resources/images/carousel/for-kids.jpg') no-repeat center;
+    background-size: cover;
+  }
+
+  .carousel__link {
+    position: absolute;
+    bottom: 64px;
+    left: 0;
+    display: block;
+    max-width: 400px;
+    font-size: 44px;
+    text-shadow: rgba(0, 0, 0, 0.48) 0px 2px 12px;
+    color: white;
+    font-weight: bold;
+  
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  
+  .carousel__content {
+    position: relative;
+    width: var.$width-cap-1;
+    height: 100%;
+    margin: auto;
+  }
+}
+
+@media(min-width: 960px) {
+  .carousel__content {
+    width: var.$width-cap-2;
+  }
+
+  .carousel__link {
+    max-width: 580px;
+  }
+}
+
+
+// .carousel-content {
+//   display: grid;
+//   grid-template-columns: 620px auto;
+//   align-content: end;
+//   align-items: end;
+
+//   height: 100%;
+//   max-width: var.$max-width;
+//   box-sizing: border-box;
+//   margin: auto;
+//   padding: 0 var.$horizontal-padding 60px;
+// }
+
+// .carousel__links-container {
+//   display: grid;
+//   align-items: end;
+//   grid-template-columns: 2fr minmax(220px, 1fr);
+//   justify-content: space-between;
+//   column-gap: 16px;
+
+//   width: 620px;
+// }
+
+
+
+// .carousel__button {
+//   padding: 8px 16px;
+//   font-size: 13px;
+//   text-align: center;
+//   text-transform: uppercase;
+// }
